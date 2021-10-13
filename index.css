@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(252, 123, 48);
+}
+.heading{   
+    text-align: center;
+    color: rgb(80 13 7);
+    margin-top: 20px;
+    margin-bottom: -17px;
+    font-family: "Bubblegum Sans";
+    font-size: 47px;
+}
+.down{
+    height: 84px;
+    width: 110px;
+    position: relative;
+    top: 31px;
+}
+.down1{
+    height: 84px;
+    width: 110px;
+    position: relative;
+    top: 31px;
+}
+.h3{
+    font-family: "Bubblegum Sans";
+}
+.dice{
+    width: 12%;
+    height: 136px;
+    position: relative;
+    left: 270px;
+    top: 117px;
+}
+.front {
+    display: block;
+    padding: 12px 27px;
+    border-radius: 12px;
+    font-size: 3.25rem;
+    background: hsl(108deg 84% 62%);
+    color: rgb(255 255 255);
+    transform: translateY(-6px);
+    height: 60px;
+  }  
+.choose{
+    font-size: 38px;
+    position: relative;
+    top: -41px;
+    left: 66px;
+    padding: 8px;
+    color: #fff3f3;
+    font-weight: bold;    
+    font-family: "Bubblegum Sans";
+}
+.box1 {
+    margin: 30px;
+    font-size: 70px;
+    color: rgb(32 27 27);
+    font-weight: bold;
+    border-radius: 32px;
+    height: 84px;
+    width: 94px;
+    text-align: center;
+    background: hsl(122deg 86% 40%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    top: -55px;
+}
+.box1:hover{
+    background-color: rgb(4, 61, 26);
+    border-color: yellow;
+    color:white;
+}
+.front:active{
+    height: 66px;
+}
+.box2{
+    position: relative;
+    left: -390px;
+    font-size: 34px;
+    color: #0a0e40;
+    width: 267px;    
+    font-family: "Bubblegum Sans";
+}
+box3{
+    position: relative;
+    right: -390px;font-size: 27px;  color: #0a0e40;
+    font-size: 34px;
+    font-family: "Bubblegum Sans";
+}
+.mid{
+    display: flex;
+    justify-content: center;flex-wrap: wrap;
+    font-family: 'BubbleGum', arial;
+
+}
+.time{
+    display: flex;
+    justify-content: center;
+    color: rgb(243, 13, 13);
+    border: solid rgb(165, 14, 14) 6px;
+    background-color: rgb(255, 255, 255);
+    width: 31%;
+    position: relative;
+    left: 184px;
+    border-radius: 23px;
+    padding: 6px;
+    height: 36px;
+    font-weight: bold;
+    font-size: 25px;
+    top: 22px;
+    align-items: center;    
+    font-family: "Bubblegum Sans";
+}
+.btnvar{
+    font-size: 26px;
+    position: relative;
+    left: 230px;
+    top: -134px;
+    margin: 11px;
+    padding: 14px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    font-family: "Bubblegum";
+}
+.restart{
+    font-size: 26px;
+    position: relative;
+    left: 291px;
+    top: -134px;
+    margin: 11px;
+    padding: 14px;
+    background-color: rgb(65, 11, 47);
+    color: white;
+    font-weight: bold;
+    border-radius:20px;
+    font-family: "Bubblegum";
+}
+.ans{
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: "BubbleGum";
+    width: 25%;
+    position: relative;
+    left: 229px;
+    padding: 10px;
+    top: -131px;
+    border-radius: 11px;
+    color: #ff0505;
+    font-family: "Bubblegum Sans";
+}
+h3 {
+    display: block;
+    font-size: 1.60em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color:white;    
+    font-family: "Bubblegum Sans";
+}

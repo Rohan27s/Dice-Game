@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="Images/fav.png"  sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Bubblegum+Sans" />
+    <link href="https://allfont.net/allfont.css?fonts=bubblegum" rel="stylesheet" type="text/css" />
+    <title>Dice Game</title>
+</head>
+<body>
+    <h1 class="heading">ROLL  THE  DICE</h1>
+    <div class="mid">
+   <span class="box2" id="cv"> Chosen Value : None</span>
+    <img src="Images/1.png" class="dice" id="dice">
+    <box3 id="currentScore">Score : 0</box3>
+</div>
+<span class="time" id="showing"></span>
+<div class=ans id="winMessage"><h3 >LETS PLAY THE GAME ! </h3></div>
+
+<button onclick="START();start1()" class="btnvar">START</button>
+<button onclick="restart()" class="restart">RESET</button>
+
+<span class="choose"><img src="Images/down.gif" class="down1">Choose Your Number below<img src="Images/down.gif" class="down"></span>
+    <div class="boxes">
+    <box class="box1" onclick="numbb()" id="1"><span class="front">
+        1
+      </span></box>
+    <box class="box1" onclick="numbb1()" id="2"><span class="front">
+        2
+      </span></box>
+    <box class="box1" onclick="numbb2()" id="3"><span class="front">
+        3
+      </span></box>
+    
+    <box class="box1" onclick="numbb3()" id="4"><span class="front">
+        4
+      </span></box>
+    <box class="box1" onclick="numbb4()" id="5"><span class="front">
+        5
+      </span></box>
+    <box class="box1" onclick="numbb5()" id="6"><span class="front">
+        6
+      </span></box>
+</div>
+<script src="indexx.js"></script>
+</body>
+</html>
